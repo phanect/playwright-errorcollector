@@ -3,6 +3,7 @@
     "alwaysStrict": true,
     "declaration": true,
     "declarationDir": "./dist/types/",
+    "esModuleInterop": true,
     "module": "commonjs",
     "moduleResolution": "node",
     "lib": [
@@ -18,8 +19,7 @@
     "typeRoots": [
       "./node_modules/@types"
     ],
-    "strict": true,
-    "strictNullChecks": false
+    "strict": true
   },
   "include": [
     "src/**/*"
