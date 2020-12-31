@@ -1,0 +1,44 @@
+#
+# System
+#
+
+# Logs
+logs/
+*.log
+
+# PIDs
+*.pid
+*.seed
+*.pid.lock
+pids
+
+# File manager configs
+.directory
+Thumbs.db
+*.DS_Store
+
+#
+# JavaScript
+#
+# Node.js
+.node_repl_history
+
+# NPM
+.npm/
+node_modules/
+npm-debug.log*
+
+# Yarn
+.yarn-integrity
+yarn-debug.log*
+yarn-error.log*
+
+# Since this is an npm module, lockfiles are ignored when published.
+package-lock.json
+yarn.lock
+
+# Build tools: Babel & Webpack
+dist/
+
+# ESLint
+.eslintcache

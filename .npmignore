@@ -1,0 +1,52 @@
+src/
+test/
+
+#
+# System
+#
+
+# Logs
+logs/
+*.log
+
+# PIDs
+*.pid
+*.seed
+*.pid.lock
+pids
+
+# File manager configs
+.directory
+Thumbs.db
+*.DS_Store
+
+#
+# Tools
+#
+.github/
+.editorconfig
+.gitattributes
+.gitignore
+
+#
+# JavaScript
+#
+# Node.js
+.node_repl_history
+
+# NPM
+.npm/
+npm-debug.log*
+
+# Yarn
+.yarn-integrity
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+tsconfig.json
+
+# Other Tools
+.eslintignore
+.eslintrc.js
+jest.config.js
