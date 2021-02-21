@@ -37,14 +37,7 @@ jobs:
       - run: npm run build
       - run: npm test
       - run: npm run lint
-      # npm 7 has a bug on `npm publish --dry-run`
-      # @see: https://github.com/npm/cli/issues/2411
-      - run: |
-          if [[ "$(npm --version)" == 7.* ]]; then
-            echo "Skipped release test"
-          else
-            npm run release-test
-          fi
+      - run: npm run release-test
 
   publish:
     needs: build
