@@ -3,7 +3,7 @@ name: GitHub Actions
 on:
   pull_request:
     branches:
-      - master
+      - main
     types:
       - opened
       - edited
@@ -11,7 +11,7 @@ on:
       - synchronize
   push:
     branches:
-      - master
+      - main
   release:
     types:
       - published
